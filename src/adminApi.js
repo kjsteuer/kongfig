@@ -26,6 +26,7 @@ function createApi({ router, getPaginatedJson, ignoreConsumers }) {
         fetchConsumerAcls: (consumerId) => getPaginatedJson(router({name: 'consumer-acls', params: {consumerId}})),
         fetchUpstreams: () => getPaginatedJson(router({name: 'upstreams'})),
         fetchTargets: (upstreamId) => getPaginatedJson(router({name: 'upstream-targets-active', params: {upstreamId}})),
+        fetchCertificates: () => getPaginatedJson(router({name: 'certificates'})),
 
         // this is very chatty call and doesn't change so its cached
         fetchPluginSchemas: () => {

@@ -109,6 +109,7 @@ upstreams:
           weight: 50
     attributes:
       slots: 10
+certificates: []
 "
 `;
 
@@ -293,6 +294,7 @@ upstreams:
     targets: []
     attributes:
       slots: 10
+certificates: []
 "
 `;
 
@@ -480,6 +482,7 @@ upstreams:
           weight: 100
     attributes:
       slots: 10
+certificates: []
 "
 `;
 
@@ -541,6 +544,7 @@ upstreams:
     targets: []
     attributes:
       slots: 10
+certificates: []
 "
 `;
 
@@ -620,6 +624,7 @@ upstreams:
     targets: []
     attributes:
       slots: 10
+certificates: []
 "
 `;
 
@@ -651,6 +656,7 @@ exports[`Upstream should remove the upstream 2`] = `
 consumers: []
 plugins: []
 upstreams: []
+certificates: []
 "
 `;
 
@@ -762,5 +768,6 @@ upstreams:
     targets: []
     attributes:
       slots: 20
+certificates: []
 "
 `;
